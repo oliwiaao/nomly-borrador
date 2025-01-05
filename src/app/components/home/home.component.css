@@ -1,17 +1,13 @@
 
-
-/* Estilos de la lista */
 ul {
     display: flex;
-    justify-content: space-around; /*distribución equilibrada */
-    align-items: flex-start; /* Alineación superior en lugar de centrado vertical */
+    justify-content: space-around; 
+    align-items: flex-start; 
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
     margin-top: 2rem;
   }
-  
-  /* Estilo de cada artículo en la lista */
   ul li {
     display: flex;
     justify-content: center;
