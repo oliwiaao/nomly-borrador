@@ -42,16 +42,10 @@ html, body {
   /* Contenedor de contenido principal */
   .content {
     width: 100%;
-<<<<<<< Updated upstream
-    max-width: 1200px; /* Ancho máximo del contenido */
-    margin: 0 auto; /* Centrado del contenido */
-    padding-top: 20px; /* Espaciado superior */
-=======
     max-width: 1200px; 
     margin: 0 25%; 
     padding-top: 20px; 
     background-color: #FFFFF0; 
->>>>>>> Stashed changes
   }
   
 
