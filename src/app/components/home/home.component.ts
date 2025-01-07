@@ -6,13 +6,14 @@ import { ActivatedRoute } from '@angular/router';
 import { SearchComponent } from '../search/search.component';
 // import { TagsComponent } from "../tags/tags.component";
 import { RouterModule } from '@angular/router';
+import { DishComponent } from '../dish/dish.component';
 
 
 // falta import tagcomponent
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, SearchComponent,RouterModule],
+  imports: [CommonModule, SearchComponent, RouterModule, DishComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })

@@ -1,4 +1,4 @@
-
+/* 
 ul {
     display: flex;
     justify-content: space-around; 
@@ -27,7 +27,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Efecto hover */
+  
   ul li a:hover {
     opacity: 0.85;
     cursor: pointer;
@@ -41,11 +41,11 @@ ul {
     object-fit: cover;
   }
   
-  /* Contenido de cada item */
+  
   .content {
     padding: 1rem;
     position: relative;
-    flex-grow: 1; /* Asegura que el contenido se estire si es necesario */
+    flex-grow: 1; 
   }
   
   .favorite {
@@ -85,4 +85,4 @@ ul {
     margin-top: .7rem;
   }
   
-
+ */
