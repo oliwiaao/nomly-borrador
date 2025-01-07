@@ -40,6 +40,11 @@ ul {
     object-fit: cover;
   }
   
+  .titulo{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
   
   .content-dish {
     padding: 1rem;
