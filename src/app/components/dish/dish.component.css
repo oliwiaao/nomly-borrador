@@ -41,12 +41,21 @@ ul {
   }
   
   
-  .content {
+  .content-dish {
     padding: 1rem;
     position: relative;
     flex-grow: 1; 
+    font-family: "Hind";
+    color: #00252F;
+    position: inline;
   }
   
+  .name{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
   .favorite {
     position: absolute;
     top: .5rem;
