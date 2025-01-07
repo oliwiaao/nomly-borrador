@@ -5,17 +5,10 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 10rem; 
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
     transition: background-color 0.3s ease;
 }
 
-/* header:hover {
-    background: linear-gradient(135deg, #F27A38, #F2B138); 
-} */
 
-/* header.content{
-    width: 50%;
-} */
 
 a.logo {
     font-family: "Montserrat";
@@ -24,14 +17,13 @@ a.logo {
     font-kerning: auto;
     color: #FFFFFF;
     text-decoration: none;
-    /* text-transform: uppercase; */
     letter-spacing: 2px;
-    transition: transform 0.3s ease-in-out; /* Animación de escala */
+    transition: transform 0.3s ease-in-out; 
     margin: 1rem;
 }
 
 a.logo:hover {
-    transform: scale(1.1); /* Escala ligera en hover */
+    transform: scale(1.1); 
 }
 
 nav {
@@ -58,19 +50,17 @@ nav ul li a {
     text-decoration: none;
     padding: 0.8rem 1.2rem;
     border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 0.5em; /* Espacio entre el icono y el texto */
+    gap: 0.5em; 
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Fondo translúcido en hover */
-    transform: translateY(-3px); /* Efecto sutil de movimiento */
+    transform: scale(1.1);
 }
 
 nav ul li a:active {
-    transform: translateY(0); /* Devuelve al estado original */
+    transform: translateY(0); 
 }
 
 nav ul li i {

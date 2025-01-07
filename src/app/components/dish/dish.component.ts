@@ -3,20 +3,18 @@ import { Component, Input, OnInit} from '@angular/core';
 import { FoodService } from '../../services/food/food.service';
 import { Food } from '../../shared/models/Food';
 import { ActivatedRoute } from '@angular/router';
-import { SearchComponent } from '../search/search.component';
-// import { TagsComponent } from "../tags/tags.component";
 import { RouterModule } from '@angular/router';
 
 
 // falta import tagcomponent
 @Component({
-  selector: 'app-home',
+  selector: 'app-dish',
   standalone: true,
-  imports: [CommonModule, SearchComponent,RouterModule],
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  imports: [CommonModule ,RouterModule],
+  templateUrl: './dish.component.html',
+  styleUrls: ['./dish.component.css']
 })
-export class HomeComponent implements OnInit {
+export class DishComponent implements OnInit {
 
   foods:Food[] = [];
   allFoods: Food[] = [];
