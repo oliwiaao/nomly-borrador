@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit} from '@angular/core';
+import { Component, Input, OnInit} from '@angular/core';
 import { FoodService } from '../../services/food/food.service';
 import { Food } from '../../shared/models/Food';
 import { ActivatedRoute } from '@angular/router';
@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   constructor(private foodService:FoodService, private route:ActivatedRoute){}
 
   ngOnInit(): void {
-    this.allFoods = this.foodService.getAll();
+    // this.allFoods = this.foodService.getAll();
     this.foods = this.allFoods;
     console.log('All Foods:', this.allFoods);
 

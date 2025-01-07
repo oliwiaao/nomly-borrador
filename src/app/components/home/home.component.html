@@ -1,8 +1,10 @@
 <app-search></app-search>
 <!-- <app-tags></app-tags> -->
 <ul>
-  @for(food of foods; track $index) {
-  <li>
+  @for(food of foods; track $index) 
+  {
+    <!-- <app-comida (food)="food" > </app-comida> -->
+    <li>
     <a routerLink="/food/{{food.id}}">
       <img src="{{food.imageUrl}}" alt="">
       <div class="content">
@@ -31,5 +33,8 @@
       </div>
     </a>
   </li>
+  } @empty {
+    <p>texto</p>
   }
 </ul>
+
